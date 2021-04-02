@@ -1,0 +1,29 @@
+.login {
+    margin-bottom:5px;
+}
+.dropdown-menu {
+    width: 300px !important;
+}
+
+.bi::before{
+    font-size: 1.5rem;
+}
+.bi::after{
+    position: absolute;
+    bottom: 5px;
+    left: 40%;
+    right: 50%;
+}
+
+@media (max-width: 576px) { 
+    .bi::after{
+       position: inherit;
+    }
+}
+
+
+@media (max-width: 768px) { 
+     .bi::after{
+        position: inherit;
+    }
+}
